@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_waterDay
+  m_Shader: {fileID: -6465566751694194690, guid: 244e9c293dc91cf47882852b24fa442a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_4E24F343: 0.2
+    - Vector1_78C50AFC: 0.1
+    - Vector1_7FBD85C2: 26.3
+    - Vector1_9DB7C56E: 4
+    - Vector1_A37C502A: 1.49
+    - Vector1_A65A1DF8: 2.76
+    - Vector1_E9299EBF: 150
+    - Vector1_F4139891: 0.189
+    m_Colors:
+    - Color_AEC7A8AA: {r: 0.31626022, g: 0.9716981, b: 0.94517744, a: 0.62352943}
+    - Color_E8F196FB: {r: 0.16078424, g: 0.6297183, b: 0.8392157, a: 1}
+    - Color_F611D626: {r: 1, g: 1, b: 1, a: 0.6156863}
+  m_BuildTextureStacks: []

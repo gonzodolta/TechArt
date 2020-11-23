@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_waterNight
+  m_Shader: {fileID: -6465566751694194690, guid: 244e9c293dc91cf47882852b24fa442a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_4E24F343: 0.41
+    - Vector1_78C50AFC: 0.1
+    - Vector1_7FBD85C2: 30.4
+    - Vector1_9DB7C56E: 4
+    - Vector1_A37C502A: 1.49
+    - Vector1_A65A1DF8: 2.99
+    - Vector1_E9299EBF: 80
+    - Vector1_F4139891: 0.189
+    m_Colors:
+    - Color_AEC7A8AA: {r: 0, g: 0.9150943, b: 0.8756196, a: 0.16470589}
+    - Color_E8F196FB: {r: 0.16776434, g: 0.2078704, b: 0.5471698, a: 1}
+    - Color_F611D626: {r: 0, g: 0.8396226, b: 0.7770625, a: 1}
+  m_BuildTextureStacks: []

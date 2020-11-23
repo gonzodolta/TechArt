@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_pickup
+  m_Shader: {fileID: -6465566751694194690, guid: 9aa5746b68936c94e89e37e9c2620e0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_9F569827: 1.97
+    m_Colors:
+    - Color_1BE5B89A: {r: 3.5534213, g: 29.508846, b: 0, a: 1}
+    - Color_4AB2D0C4: {r: 0.020698166, g: 0.16558532, b: 0, a: 0}
+  m_BuildTextureStacks: []
