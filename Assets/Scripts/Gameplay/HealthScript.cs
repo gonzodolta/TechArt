@@ -21,7 +21,6 @@ public class HealthScript : MonoBehaviour
         posOffset = transform.position;
     }
 
-
     void Update()
     {
         transform.Rotate(new Vector3(0f, Time.deltaTime * degreesPerSecond, 0f), Space.World);
@@ -29,7 +28,6 @@ public class HealthScript : MonoBehaviour
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
         transform.position = tempPos;
     }
-
 
 
     void OnTriggerEnter(Collider collider)

@@ -12,7 +12,6 @@ public class EnemyScript : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             healthScript.TakeDamage(20);
-//            Stats.theScore += 1;
             Instantiate(particleObject, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
