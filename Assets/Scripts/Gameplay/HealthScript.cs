@@ -9,7 +9,7 @@ public class HealthScript : MonoBehaviour
     public float frequency = 1f;
     public HealthBar healthBar;
 
-    public static int currentHealth;
+    public static int currentHealth = 80;
 
     Vector3 posOffset;
     Vector3 tempPos;

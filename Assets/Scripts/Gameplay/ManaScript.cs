@@ -9,7 +9,7 @@ public class ManaScript : MonoBehaviour
     public float frequency = 1f;
     public ManaBar manaBar;
 
-    public static int currentMana;
+    public static int currentMana = 20;
 
     Vector3 posOffset;
     Vector3 tempPos;
@@ -27,7 +27,6 @@ public class ManaScript : MonoBehaviour
         tempPos = posOffset;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
         transform.position = tempPos;
-
     }
 
 
